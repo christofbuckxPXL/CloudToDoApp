@@ -10,5 +10,5 @@ services:
       - DBURL=todoo.csys5to0nncg.us-east-1.rds.amazonaws.com
       - DBUSER=root
       - DBPASSWORD=password
-      - DBDATABASE=todoo
+      - DBDATABASE=todo
       - DBPORT=3306
