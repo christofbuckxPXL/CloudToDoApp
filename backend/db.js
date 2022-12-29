@@ -2,9 +2,9 @@ const Sequelize = require('sequelize');
 
 const sequelize = new Sequelize({
     dialect: 'mysql',
-    host: process.env.DBURL || 'localhost',
+    host: process.env.DBURL || 'todo.cmbvygwxmfc4.us-west-2.rds.amazonaws.com',
     username: process.env.DBUSER || 'root',
-    password: process.env.DBPASSWORD || '',
+    password: process.env.DBPASSWORD || 'pasword',
     database: process.env.DBDATABASE || 'todo',
     port: process.env.DBPORT || 3306,
     logging: console.log
