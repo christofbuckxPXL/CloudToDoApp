@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  backend:
+    build:
+      context: .
+    ports:
+      - 8090:8090
+    environment:
+      - PORT=8090
+      - DBURL=mysql
+      - DBUSER=root
+      - DBPASSWORD=password
+      - DBDATABASE=todoo
+      - DBPORT=3306

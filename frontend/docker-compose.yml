@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  frontend:
+    build:
+      context: .
+      args:
+        - APIURL=http://107.23.206.233:8090
+    ports:
+      - 80:80
+      
+  
