@@ -11,7 +11,7 @@ RUN echo "export const environment = {production: true, apiurl: '${APIURL}'};" >
 RUN npm install
 RUN npm run build --configuration=production
 
-FROM nginx
+# FROM nginx
 
-COPY nginx.conf /etc/nginx/nginx.conf
-COPY --from=build /usr/src/app/dist/frontend/ /usr/share/nginx/html
+# COPY nginx.conf /etc/nginx/nginx.conf
+# COPY --from=build /usr/src/app/dist/frontend/ /usr/share/nginx/html
