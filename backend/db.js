@@ -2,7 +2,7 @@ const Sequelize = require('sequelize');
 
 const sequelize = new Sequelize({
     dialect: 'mysql',
-    host: process.env.DBURL || 'todo.cmbvygwxmfc4.us-west-2.rds.amazonaws.com',
+    host: process.env.DBURL || 'localhost',
     username: process.env.DBUSER || 'root',
     password: process.env.DBPASSWORD || 'password',
     database: process.env.DBDATABASE || 'todo',
