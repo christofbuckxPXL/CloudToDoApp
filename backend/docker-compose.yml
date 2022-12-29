@@ -7,7 +7,7 @@ services:
       - 8090:8090
     environment:
       - PORT=8090
-      - DBURL=mysql
+      - DBURL=todoo.csys5to0nncg.us-east-1.rds.amazonaws.com
       - DBUSER=root
       - DBPASSWORD=password
       - DBDATABASE=todoo
