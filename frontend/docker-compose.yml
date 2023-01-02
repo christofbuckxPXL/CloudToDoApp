@@ -4,7 +4,7 @@ services:
     build:
       context: .
       args:
-        - APIURL=http://107.23.206.233:8090
+        - APIURL=localhost
     ports:
       - 80:80
       
