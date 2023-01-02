@@ -8,7 +8,7 @@ services:
     environment:
       - PORT=8090
       - DBURL=localhost
-      - DBUSER=root
+      - DBUSER=username
       - DBPASSWORD=password
       - DBDATABASE=todo
       - DBPORT=3306
