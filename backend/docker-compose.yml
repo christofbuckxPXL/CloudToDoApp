@@ -12,3 +12,4 @@ services:
       - DBPASSWORD=password
       - DBDATABASE=todo
       - DBPORT=3306
+    restart: always
