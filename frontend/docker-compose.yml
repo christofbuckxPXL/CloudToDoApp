@@ -4,7 +4,7 @@ services:
     build:
       context: .
       args:
-        - APIURL=localhost/test
+        - APIURL=localhost
     ports:
       - 80:80
       
